@@ -28,4 +28,16 @@ public final class Constants {
     /** Replaying from a log file. */
     REPLAY
   }
+
+  public static class IntakeConstants {
+    // TODO set the correct CAN ID for the intake motor
+    public static final int kIntakeMotorCANID = 8;
+
+    public static final double motorReduction = 1.0; // Gear reduction from motor to intake wheel
+    public static final double currentLimit = 30.0; // Current limit in Amps
+    public static final double realKp = 0.1; // Proportional gain for the PID controller
+    public static final double realKd = 0.0; // Derivative gain for the PID controller
+
+    public static final boolean Inverted = false; // Inversion for the intake motor
+  }
 }
