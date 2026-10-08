@@ -24,7 +24,7 @@ public class DriveConstants {
   public static final int rightFollowerCanId = 4;
 
   // Motor configuration
-  public static final int currentLimit = 60;
+  public static final int currentLimit = 40;
   public static final double wheelRadiusMeters = Units.inchesToMeters(3.0);
   public static final double motorReduction = 10.71;
   public static final boolean leftInverted = false;
